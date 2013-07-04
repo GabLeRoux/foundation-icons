@@ -1,0 +1,188 @@
+@import "icon_style";
+
+* { margin: 0; padding: 0; }
+body { background: #ddd; font-family: "HelveticaNeue", "Helvetica Neue", "Helvetica", Arial, sans-serif; }
+
+.row { width: 100%; max-width: 980px; min-width: 727px; margin: 0 auto; }
+.row .row { min-width: 0; }
+.column, .columns { margin-left: 4.4%; float: left; min-height: 1px; position: relative; }
+.column:first-child, .columns:first-child { margin-left: 0; }
+.row .three { width: 21.67957%; }
+.row .four { width: 25%; }
+.row .twelve { width: 100%; }
+/* Nicolas Gallagher's micro clearfix */
+.row:before, .row:after, .clearfix:before, .clearfix:after { content:""; display:table; }
+.row:after, .clearfix:after { clear: both; }
+.row, .clearfix { zoom: 1; }
+
+.container { padding: 40px; margin: 0 auto; width: 980px; background: #fff; }
+h1 { margin-bottom: 10px; font-size: 40px; }
+h4 { margin-bottom: 4px; }
+hr { border: solid 1px; border-color: #bbb transparent transparent transparent; }
+ul { list-style: none; overflow: hidden; margin-top: 20px; margin-bottom: 30px; }
+ul li { font-size: 28px; margin-bottom: 16px; vertical-align: center; }
+
+div.code { border: solid 1px #000; background: #444; border-radius: 3px; box-shadow: 0px 2px 10px rgba(0,0,0,1) inset; }
+div.code pre { color: #fff; padding: 5px 5px 5px 8px; }
+.class { color: #4DB9EE; }
+em { color: #aaa; }
+
+[class*="icon"]:after { position: relative; top: -8px; left: 10px; color: #888; font-size: 60%; font-style: normal; }
+
+/* General */
+.icon.general-settings:after        { content: "settings"; }
+.icon.general-heart:after           { content: "heart"; }
+.icon.general-star:after            { content: "star"; }
+.icon.general-plus:after            { content: "plus"; }
+.icon.general-minus:after           { content: "minus"; }
+.icon.general-checkmark:after       { content: "checkmark"; }
+.icon.general-remove:after          { content: "remove"; }
+.icon.general-mail:after            { content: "mail"; }
+.icon.general-calendar:after        { content: "calendar"; }
+.icon.general-page:after            { content: "page"; }
+.icon.general-tools:after           { content: "tools"; }
+.icon.general-globe:after           { content: "globe"; }
+.icon.general-home:after            { content: "home"; }
+.icon.general-quote:after           { content: "quote"; }
+.icon.general-people:after          { content: "people"; }
+.icon.general-monitor:after         { content: "monitor"; }
+.icon.general-laptop:after          { content: "laptop"; }
+.icon.general-phone:after           { content: "phone"; }
+.icon.general-cloud:after           { content: "cloud"; }
+.icon.general-error:after           { content: "error"; }
+.icon.general-right-arrow:after     { content: "right-arrow"; }
+.icon.general-left-arrow:after      { content: "left-arrow"; }
+.icon.general-up-arrow:after        { content: "up-arrow"; }
+.icon.general-down-arrow:after      { content: "down-arrow"; }
+.icon.general-trash:after           { content: "trash"; }
+.icon.general-add-doc:after         { content: "add-doc"; }
+.icon.general-edit:after            { content: "edit"; }
+.icon.general-lock:after            { content: "lock"; }
+.icon.general-unlock:after          { content: "unlock"; }
+.icon.general-refresh:after         { content: "refresh"; }
+.icon.general-paper-clip:after      { content: "paper-clip"; }
+.icon.general-video:after           { content: "video"; }
+.icon.general-photo:after           { content: "photo"; }
+.icon.general-graph:after           { content: "graph"; }
+.icon.general-idea:after            { content: "idea"; }
+.icon.general-mic:after             { content: "mic"; }
+.icon.general-cart:after            { content: "cart"; }
+.icon.general-address-book:after    { content: "address-book"; }
+.icon.general-compass:after         { content: "compass"; }
+.icon.general-flag:after            { content: "flag"; }
+.icon.general-location:after        { content: "location"; }
+.icon.general-clock:after           { content: "clock"; }
+.icon.general-folder:after          { content: "folder"; }
+.icon.general-inbox:after           { content: "inbox"; }
+.icon.general-website:after         { content: "website"; }
+.icon.general-smiley:after          { content: "smiley"; }
+.icon.general-search:after          { content: "search"; }
+
+/* General Enclosed */
+.icon.general-enclosed-settings:after        { content: "settings"; }
+.icon.general-enclosed-heart:after           { content: "heart"; }
+.icon.general-enclosed-star:after            { content: "star"; }
+.icon.general-enclosed-plus:after            { content: "plus"; }
+.icon.general-enclosed-minus:after           { content: "minus"; }
+.icon.general-enclosed-checkmark:after       { content: "checkmark"; }
+.icon.general-enclosed-remove:after          { content: "remove"; }
+.icon.general-enclosed-mail:after            { content: "mail"; }
+.icon.general-enclosed-calendar:after        { content: "calendar"; }
+.icon.general-enclosed-page:after            { content: "page"; }
+.icon.general-enclosed-tools:after           { content: "tools"; }
+.icon.general-enclosed-globe:after           { content: "globe"; }
+.icon.general-enclosed-home:after            { content: "home"; }
+.icon.general-enclosed-quote:after           { content: "quote"; }
+.icon.general-enclosed-people:after          { content: "people"; }
+.icon.general-enclosed-monitor:after         { content: "monitor"; }
+.icon.general-enclosed-laptop:after          { content: "laptop"; }
+.icon.general-enclosed-phone:after           { content: "phone"; }
+.icon.general-enclosed-cloud:after           { content: "cloud"; }
+.icon.general-enclosed-error:after           { content: "error"; }
+.icon.general-enclosed-right-arrow:after     { content: "right-arrow"; }
+.icon.general-enclosed-left-arrow:after      { content: "left-arrow"; }
+.icon.general-enclosed-up-arrow:after        { content: "up-arrow"; }
+.icon.general-enclosed-down-arrow:after      { content: "down-arrow"; }
+.icon.general-enclosed-trash:after           { content: "trash"; }
+.icon.general-enclosed-add-doc:after         { content: "add-doc"; }
+.icon.general-enclosed-edit:after            { content: "edit"; }
+.icon.general-enclosed-lock:after            { content: "lock"; }
+.icon.general-enclosed-unlock:after          { content: "unlock"; }
+.icon.general-enclosed-refresh:after         { content: "refresh"; }
+.icon.general-enclosed-paper-clip:after      { content: "paper-clip"; }
+.icon.general-enclosed-video:after           { content: "video"; }
+.icon.general-enclosed-photo:after           { content: "photo"; }
+.icon.general-enclosed-graph:after           { content: "graph"; }
+.icon.general-enclosed-idea:after            { content: "idea"; }
+.icon.general-enclosed-mic:after             { content: "mic"; }
+.icon.general-enclosed-cart:after            { content: "cart"; }
+.icon.general-enclosed-address-book:after    { content: "address-book"; }
+.icon.general-enclosed-compass:after         { content: "compass"; }
+.icon.general-enclosed-flag:after            { content: "flag"; }
+.icon.general-enclosed-location:after        { content: "location"; }
+.icon.general-enclosed-clock:after           { content: "clock"; }
+.icon.general-enclosed-folder:after          { content: "folder"; }
+.icon.general-enclosed-inbox:after           { content: "inbox"; }
+.icon.general-enclosed-website:after         { content: "website"; }
+.icon.general-enclosed-smiley:after          { content: "smiley"; }
+.icon.general-enclosed-search:after          { content: "search"; }
+
+/* Social */
+.icon.social-thumb-up:after         { content: "thumb-up";}
+.icon.social-thumb-down:after       { content: "thumb-down";}
+.icon.social-rss:after              { content: "rss";}
+.icon.social-facebook:after         { content: "facebook";}
+.icon.social-twitter:after          { content: "twitter";}
+.icon.social-pinterest:after        { content: "pinterest";}
+.icon.social-github:after           { content: "github";}
+.icon.social-path:after             { content: "path";}
+.icon.social-linkedin:after         { content: "linkedin";}
+.icon.social-dribbble:after         { content: "dribbble";}
+.icon.social-stumble-upon:after     { content: "stumble-upon";}
+.icon.social-behance:after          { content: "behance";}
+.icon.social-reddit:after           { content: "reddit";}
+.icon.social-google-plus:after      { content: "google-plus";}
+.icon.social-youtube:after          { content: "youtube";}
+.icon.social-vimeo:after            { content: "vimeo";}
+.icon.social-flickr:after           { content: "flickr";}
+.icon.social-slideshare:after       { content: "slideshare";}
+.icon.social-picassa:after          { content: "picassa";}
+.icon.social-skype:after            { content: "skype";}
+.icon.social-steam:after            { content: "steam";}
+.icon.social-instagram:after        { content: "instagram";}
+.icon.social-foursquare:after       { content: "foursquare";}
+.icon.social-delicious:after        { content: "delicious";}
+.icon.social-chat:after             { content: "chat";}
+.icon.social-torso:after            { content: "torso";}
+.icon.social-tumblr:after           { content: "tumblr";}
+.icon.social-video-chat:after       { content: "video-chat";}
+.icon.social-digg:after             { content: "digg";}
+.icon.social-wordpress:after        { content: "wordpress";}
+
+/* Acessibility */
+.icon.accessibility-wheelchair:after         { content: "wheelchair"; }
+.icon.accessibility-speaker:after            { content: "speaker"; }
+.icon.accessibility-fontsize:after           { content: "fontsize"; }
+.icon.accessibility-eject:after              { content: "eject"; }
+.icon.accessibility-view-mode:after          { content: "view-mode"; }
+.icon.accessibility-eyeball:after            { content: "eyeball"; }
+.icon.accessibility-asl:after                { content: "asl"; }
+.icon.accessibility-person:after             { content: "person"; }
+.icon.accessibility-question:after           { content: "question"; }
+.icon.accessibility-adult:after              { content: "adult"; }
+.icon.accessibility-child:after              { content: "child"; }
+.icon.accessibility-glasses:after            { content: "glasses"; }
+.icon.accessibility-cc:after                 { content: "cc"; }
+.icon.accessibility-blind:after              { content: "blind"; }
+.icon.accessibility-braille:after            { content: "Braille"; }
+.icon.accessibility-iphone-home:after        { content: "iphone-home"; }
+.icon.accessibility-w3c:after                { content: "w3c"; }
+.icon.accessibility-css:after                { content: "css"; }
+.icon.accessibility-key:after                { content: "key"; }
+.icon.accessibility-hearing-impaired:after   { content: "hearing-impaired"; }
+.icon.accessibility-male:after               { content: "male"; }
+.icon.accessibility-female:after             { content: "female"; }
+.icon.accessibility-network:after            { content: "network"; }
+.icon.accessibility-guidedog:after           { content: "guidedog"; }
+.icon.accessibility-universal-access:after   { content: "universal-access"; }
+.icon.accessibility-elevator:after           { content: "elevator"; }

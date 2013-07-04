@@ -1,0 +1,157 @@
+/* general icons for IE7 */
+/* line 5, ../sass/social_foundicons_ie7.scss */
+[class*="social-"] {
+  font-family: "SocialFoundicons";
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 8, ../sass/_settings.scss */
+.social-thumb-up {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf000;");
+}
+
+/* line 8, ../sass/_settings.scss */
+.social-thumb-down {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf001;");
+}
+
+/* line 8, ../sass/_settings.scss */
+.social-rss {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf002;");
+}
+
+/* line 8, ../sass/_settings.scss */
+.social-facebook {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf003;");
+}
+
+/* line 8, ../sass/_settings.scss */
+.social-twitter {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf004;");
+}
+
+/* line 8, ../sass/_settings.scss */
+.social-pinterest {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf005;");
+}
+
+/* line 8, ../sass/_settings.scss */
+.social-github {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf006;");
+}
+
+/* line 8, ../sass/_settings.scss */
+.social-path {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf007;");
+}
+
+/* line 8, ../sass/_settings.scss */
+.social-linkedin {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf008;");
+}
+
+/* line 8, ../sass/_settings.scss */
+.social-dribbble {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf009;");
+}
+
+/* line 8, ../sass/_settings.scss */
+.social-stumble-upon {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00a;");
+}
+
+/* line 8, ../sass/_settings.scss */
+.social-behance {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00b;");
+}
+
+/* line 8, ../sass/_settings.scss */
+.social-reddit {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00c;");
+}
+
+/* line 8, ../sass/_settings.scss */
+.social-google-plus {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00d;");
+}
+
+/* line 8, ../sass/_settings.scss */
+.social-youtube {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00e;");
+}
+
+/* line 8, ../sass/_settings.scss */
+.social-vimeo {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00f;");
+}
+
+/* line 8, ../sass/_settings.scss */
+.social-flickr {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf010;");
+}
+
+/* line 8, ../sass/_settings.scss */
+.social-slideshare {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf011;");
+}
+
+/* line 8, ../sass/_settings.scss */
+.social-picassa {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf012;");
+}
+
+/* line 8, ../sass/_settings.scss */
+.social-skype {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf013;");
+}
+
+/* line 8, ../sass/_settings.scss */
+.social-steam {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf014;");
+}
+
+/* line 8, ../sass/_settings.scss */
+.social-instagram {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf015;");
+}
+
+/* line 8, ../sass/_settings.scss */
+.social-foursquare {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf016;");
+}
+
+/* line 8, ../sass/_settings.scss */
+.social-delicious {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf017;");
+}
+
+/* line 8, ../sass/_settings.scss */
+.social-chat {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf018;");
+}
+
+/* line 8, ../sass/_settings.scss */
+.social-torso {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf019;");
+}
+
+/* line 8, ../sass/_settings.scss */
+.social-tumblr {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01a;");
+}
+
+/* line 8, ../sass/_settings.scss */
+.social-video-chat {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01b;");
+}
+
+/* line 8, ../sass/_settings.scss */
+.social-digg {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01c;");
+}
+
+/* line 8, ../sass/_settings.scss */
+.social-wordpress {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01d;");
+}
